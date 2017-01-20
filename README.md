@@ -8,7 +8,7 @@ A tiny command line tool that extract `package.json` version and generate `expor
   "name": "yourproject",
   "version": "1.0.0",
   "scripts": {
-    "postversion": "const-version ./package.json ./src/version.json"
+    "version": "const-version ./package.json ./src/version.json && git add -A src/version.js"
   }
 }
 ```
