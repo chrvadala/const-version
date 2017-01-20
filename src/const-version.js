@@ -24,9 +24,11 @@ function writeVersion(path, version, callback) {
   });
 }
 
-function generateConstVersion(packageJSON, dest, callback) {
+function generateConstVersion(packageJSON, dest) {
   readVersion(packageJSON, version => {
-    writeVersion(dest, version, callback);
+    writeVersion(dest, version, () => {
+      //done
+    });
   })
 }
 
