@@ -1,15 +1,15 @@
 {
   "name": "const-version",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A tiny command line tool that extract `package.json` version and generate `export const VERSION='...'` file in ES6 syntax",
   "main": "index.js",
   "repository": "https://github.com/chrvadala/const-version.git",
   "author": "chrvadala",
   "license": "MIT",
-  "scripts": {
-    "test": "mocha test.js"
-  },
   "dependencies": {
     "commander": "^2.9.0"
+  },
+  "bin": {
+    "const-version": "./bin/const-version"
   }
 }
