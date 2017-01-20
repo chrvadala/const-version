@@ -1,9 +1,9 @@
 # const-version
 A tiny command line tool that extract `package.json` version and generate `export const VERSION='...'` file in ES6 syntax
 
-## Usage
-`package.json`
-``
+## Usage `package.json`
+
+```
 {
   "name": "yourproject",
   "version": "1.0.0",
