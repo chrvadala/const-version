@@ -8,7 +8,7 @@ A tiny command line tool that extract `package.json` version and generate `expor
   "name": "yourproject",
   "version": "1.0.0",
   "scripts": {
-    "postversion": "const-version ./package.json ./src/version.json"
+    "version": "const-version ./package.json ./src/version.json && git add -A src/version.js"
   }
 }
 ```
@@ -25,7 +25,7 @@ It's not usually good, because:
  - you might share some private data
  - you increase the size of your bundle
 
-This tiny lib exist to avoid this.
+This tiny lib exists to avoid this.
 
 ## Changelog
 - **v1.0** - First release
