@@ -1,5 +1,6 @@
 # const-version
 A tiny command line tool that extract `package.json` version and generate `export const VERSION='...'` file in ES6 syntax
+
 [![Build Status](https://travis-ci.org/chrvadala/const-version.svg?branch=master)](https://travis-ci.org/chrvadala/const-version)
 
 ## Usage `package.json`
