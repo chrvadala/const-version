@@ -1,10 +1,9 @@
 const chai = require("chai");
-const chaiAsPromised = require("chai-as-promised");
-const constVersion = require("../src/const-version");
-chai.use(chaiAsPromised);
+chai.use(require("chai-as-promised"));
 const assert = chai.assert;
-const path = require("path");
 const mock = require('mock-fs');
+
+const constVersion = require("../src/const-version");
 
 mock({
   prj: {
