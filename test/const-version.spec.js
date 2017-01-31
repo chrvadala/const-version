@@ -45,6 +45,6 @@ describe("write phase", () => {
 
 describe("const version", () => {
   it("should read package.json and save file with version", () => {
-    return assert.isFulfilled(constVersion.readVersion("prj/good.json"));
+    return assert.isFulfilled(constVersion.default("prj/good.json", "prj/ver.js"));
   });
 });
