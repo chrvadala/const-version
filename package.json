@@ -7,7 +7,15 @@
   "author": "chrvadala",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.9.0"
+    "bluebird": "^3.4.7",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "commander": "^2.9.0",
+    "mocha": "^3.2.0",
+    "mock-fs": "^3.12.1"
+  },
+  "scripts": {
+    "test": "mocha"
   },
   "bin": {
     "const-version": "./bin/const-version"
