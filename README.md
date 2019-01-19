@@ -2,6 +2,7 @@
 A tiny command line tool that extract `package.json` version and generate `export const VERSION='...'` file in ES6 syntax
 
 [![Build Status](https://travis-ci.org/chrvadala/const-version.svg?branch=master)](https://travis-ci.org/chrvadala/const-version)
+[![Donate](https://img.shields.io/badge/donate-PayPal-green.svg)](https://www.paypal.me/chrvadala/25)
 
 ## Usage `package.json`
 
@@ -31,6 +32,7 @@ This tiny lib exists to avoid this.
 
 ## Changelog
 - **v1.0** - First release
+- **v2.0** - Change some dependencies
 
 ## Contributing
 Your contributions (issues and pull request) are very appreciated!
