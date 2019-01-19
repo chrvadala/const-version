@@ -8,9 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.7",
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
-    "commander": "^2.9.0",
     "mocha": "^3.2.0",
     "mock-fs": "^3.12.1"
   },
