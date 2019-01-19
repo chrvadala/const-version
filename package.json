@@ -17,7 +17,8 @@
     "mock-fs": "^4.7.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:ci": "mocha"
   },
   "bin": {
     "const-version": "./bin/const-version"
