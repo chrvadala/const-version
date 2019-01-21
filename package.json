@@ -1,6 +1,6 @@
 {
   "name": "const-version",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A tiny command line tool that extract `package.json` version and generate `export const VERSION='...'` file in ES6 syntax",
   "main": "index.js",
   "repository": "https://github.com/chrvadala/const-version.git",
