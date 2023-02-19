@@ -14,11 +14,12 @@
     "chai": "^4.3.7",
     "chai-as-promised": "^7.1.1",
     "mocha": "^10.2.0",
-    "mock-fs": "^5.2.0"
+    "mock-fs": "^5.2.0",
+    "standard": "^17.0.0"
   },
   "scripts": {
-    "test": "mocha",
-    "test:ci": "mocha"
+    "test": "npm run test:standard",
+    "test:standard": "standard"
   },
   "bin": {
     "const-version": "./bin/const-version"
