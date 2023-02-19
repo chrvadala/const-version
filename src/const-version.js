@@ -41,4 +41,4 @@ function generateConstVersion (source, dest) {
 
 module.exports.writeVersion = writeVersion
 module.exports.readVersion = readVersion
-module.exports.default = generateConstVersion
+module.exports = generateConstVersion

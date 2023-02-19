@@ -1,7 +1,7 @@
 const program = require('commander')
 
 const version = require('../package.json').version
-const constVersion = require('./const-version').default
+const constVersion = require('./const-version')
 
 function cmd (process) {
   program
