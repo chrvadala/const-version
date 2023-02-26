@@ -7,7 +7,6 @@
   "author": "chrvadala",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.7.2",
     "commander": "^10.0.0"
   },
   "devDependencies": {
