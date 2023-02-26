@@ -2,18 +2,31 @@
   "name": "const-version",
   "version": "2.0.0",
   "description": "A tiny command line tool that extract `package.json` version and generate `export const VERSION='...'` file in ES6 syntax",
-  "main": "index.js",
-  "repository": "https://github.com/chrvadala/const-version.git",
   "author": "chrvadala",
   "license": "MIT",
   "dependencies": {
     "commander": "^10.0.0"
   },
+  "main": "./src/const-version.js",
   "devDependencies": {
     "jest": "^29.4.3",
     "mock-fs": "^5.2.0",
     "standard": "^17.0.0"
   },
+  "files": [
+    "*.md",
+    "src",
+    "test",
+    "bin"
+  ],
+  "bugs": {
+    "url": "https://github.com/chrvadala/const-version/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrvadala/const-version.git"
+  },
+  "homepage": "https://github.com/chrvadala/const-version#readme",
   "scripts": {
     "test": "npm run test:standard && npm run test:coverage",
     "test:standard": "standard",
@@ -23,5 +36,12 @@
   },
   "bin": {
     "const-version": "./bin/const-version"
-  }
+  },
+  "keywords": [
+    "cli",
+    "versioning",
+    "tool",
+    "bundle"
+  ],
+  "funding": "https://github.com/sponsors/chrvadala"
 }
