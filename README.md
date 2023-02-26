@@ -3,7 +3,7 @@ A tiny command line tool that extract `package.json` version and generate `expor
 
 [![chrvadala](https://img.shields.io/badge/website-chrvadala-orange.svg)](https://chrvadala.github.io)
 [![Test](https://github.com/chrvadala/const-version/workflows/Test/badge.svg)](https://github.com/chrvadala/const-version/actions)
-[![Coverage Status](https://coveralls.io/repos/github/chrvadala/const-version/badge.svg?branch=master)](https://coveralls.io/github/chrvadala/const-version?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/chrvadala/const-version/badge.svg?branch=main)](https://coveralls.io/github/chrvadala/const-version?branch=main)
 [![npm](https://img.shields.io/npm/v/const-version.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/const-version)
 [![Downloads](https://img.shields.io/npm/dm/const-version.svg)](https://www.npmjs.com/package/const-version)
 [![Donate](https://img.shields.io/badge/donate-GithubSponsor-green.svg)](https://github.com/sponsors/chrvadala)
